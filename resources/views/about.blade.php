@@ -11,18 +11,55 @@
 
 </head>
 <body>
-    <div class="text-center">
-        <h1>About us</h1>
+<div class="text-center">
+        <nav class="nav justify-content-center">
+            <ul>
+           <li><a href="{{url('/')}}" class="nav-link">Home</a></li>
+           <li><a href="{{('/about')}}" class="nav-link">About Us</a></li>
+           <li> <a href="{{('/profile')}}" class="nav-link">Company Profile</a></li>
+</ul>
+</nav>
+        <h1>Prelim Project</h1>
 
     <div class="card shadow-sm mx-auto" style="width: 500px">
         <div class="card-body">
-            <div class="card-title">Our Company</div>
+            <div class="card-title"> Yes dear!</div>
             <p>
-            The company summary in a business plan provides an overview containing a description of your company at a high level. A company summary might include your mission statement, goals, target market, products, and services, as well as how it stands out from competitors.
-            </p>
+            The company summary in a business plan provides an overview containing a description of the <br> company at a high level.
+
       </div>
     </div>
 </div>
 
 </body>
 </html>
+<style>
+body {
+        font-family: sans-serif;
+        padding: 20px;
+        font-size: 20px;
+    background-image: url(https://media.istockphoto.com/photos/leaf-background-picture-id844226534?b=1&k=20&m=844226534&s=612x612&w=0&h=5ApmQETYLQ-f1idri4H97Xfv_5lYP0b6hp3OEHGWrGo=);
+}
+
+.text-center ul {
+     margin: 0;
+     padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-align:right;
+    overflow: hidden;
+    background-color:lightskyblue;
+    }
+    .text-center li{
+padding: 20px;
+display: inline-flex;
+font-size: 30px;
+}
+     .text-center li a:hover {
+      background-color: pink;
+      }
+      a {text-decoration:none;
+        color:whitesmoke;
+      }
+      
+</style>

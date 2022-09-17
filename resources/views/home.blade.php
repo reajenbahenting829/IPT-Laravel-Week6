@@ -13,18 +13,20 @@
 <body>
     <div class="text-center">
         <nav class="nav justify-content-center">
-             <a href="{{url('/')}}" class="nav-link">Home</a>
-             <a href="{{('/about')}}" class="nav-link">About Us</a>
-             <a href="{{('/profile')}}" class="nav-link">Company Profile</a>
+            <ul>
+             <li><a href="{{url('/')}}" class="nav-link">Home</a></li>
+             <li><a href="{{('/about')}}" class="nav-link">About Us</a></li>
+             <li><a href="{{('/profile')}}" class="nav-link">Company Profile</a></li>
+</ul>
 </nav>
 
-        <h1>Welcome message</h1>
+        <h1>Prelim Project</h1>
 
-    <div class="card shadow-sm mx-auto" style="width: 500px">
+    <div class="card shadow-sm mx-auto" style="width: 600px">
         <div class="card-body">
             <div class="card-title">Hi dear!</div>
             <p>
-            We're proud that you chose to visit and join our team. We were thrilled to find someone with your abilities, ideas and great attitude.” “We're so happy to have you on our team.  We're pleased you decided to join us, and we hope you'll come to us for help when you need it.
+            We're proud that you chose to visit and join our team. We were thrilled to find someone with your abilities, ideas and great attitude.” “We're so happy to have you on our team. We're pleased you decided to join us, and we hope you'll come to us for help when you need it.
             </p>
       </div>
     </div>
@@ -32,3 +34,33 @@
 
 </body>
 </html>
+<style>
+       
+       body {
+        font-family: sans-serif;
+        padding: 20px;
+        font-size: 20px;
+    background-image: url(https://thumbs.dreamstime.com/b/wooden-desk-against-beauty-natural-backgrounds-your-design-37488908.jpg);
+}
+.text-center ul {
+     margin: 0;
+     padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-align:right;
+    overflow: hidden;
+    background-color:lightblue;
+    }
+    .text-center li{
+padding: 20px;
+display: inline-flex;
+font-size: 30px;
+}
+     .text-center li a:hover {
+      background-color: pink;
+      }
+      a {text-decoration:none;
+        color:whitesmoke;
+      }
+      
+   </style>
