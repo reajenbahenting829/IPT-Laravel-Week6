@@ -10,10 +10,10 @@ class trainor extends Model
 {
     //use HasFactory;
 
-    //trainor belongsTo user
+    //trainor belongsTo users
     public function user()
   {
-     return $this->belongsTo('App\Model\user');
+     return $this->belongsTo('App\Model\users');
   }
 
   //trainor hasMany courses
