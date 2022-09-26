@@ -2,13 +2,9 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
-use Laravel\Sanctum\HasApiTokens;
 use Illuminate\Database\Eloquent\Model;
 
-class users extends Model
+class user extends Model
 {
  //  use  HasFactory, Notifiable;
     
@@ -19,7 +15,7 @@ class users extends Model
   }
 
   //user hasMany trainees
-  public function trainess()
+  public function trainees()
 {
 
    return $this->hasMany('App\Model\trainess');
